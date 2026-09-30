@@ -1,7 +1,9 @@
-console.log("======================");
-console.log("MEU PRIMEIRO NODE.JS");
-console.log("======================");
-console.log("Nome: Seu nome");
-console.log("Curso: Seu Curso");
-console.log("Instituição: Sua instituição");
-console.log("Estou aprendendo node.js!");
+const matematica = require("./matematica");
+const soma = matematica.somar(10,5);
+const subtrair = matematica.subtrair(14,7);
+const multiplicar = matematica.multiplicar(5,4);
+const dividir = matematica.dividir(20,4);
+console.log("Soma = ", soma);
+console.log("Subtração = ", subtrair);
+console.log("Multiplicação = ", multiplicar);
+console.log("Divisão = ", dividir);
